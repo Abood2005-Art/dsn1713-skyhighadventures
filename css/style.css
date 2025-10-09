@@ -1,13 +1,18 @@
- 
- .btn-danger {
-      background-color: #dc3545;
-      color: #fff;
-      font-weight: 300;
-      border-radius: 0.5rem;
-      text-decoration: none;
-    }
-    .btn-danger {
-      background-color: #c82333;
-      color: #fff;
-    }
+#hero {
+  background-image: url(../images/Screenshot\ 2025-10-07\ at\ 9.27.44\ AM.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(255, 0, 0);
+  height: 60vh;
+}
 
+
+.hero-section {
+  background: url("../images/hero.jpg") center center / cover no-repeat; 
+  min-height: 40vh;                
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
